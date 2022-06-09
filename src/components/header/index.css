@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.container-header {
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+.titulo {
+    margin: 0;
+    color: #303841;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.contato {
+    text-decoration: none;
+    font-size: 16px;
+    color: #303841;
+}
+
+.contato:hover {
+    text-decoration: underline 2px #00ADB5;
+    text-underline-position: under;
+    opacity: 1;
+    transition: opacity 300ms, transform 300ms;
+    transform: translate3d(0, 1px, 0);
+}

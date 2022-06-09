@@ -1,0 +1,43 @@
+.container-intro {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)100%), url('../../assets/background.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-titulo {
+    margin: 10px 10%;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+
+.intro-texto {
+    margin: 10px 10%;
+    font-size: 16px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.intro-button {
+    margin: 10px 0;
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #01767c;
+    color: #EEEEEE;
+    font-size: 14px;
+    text-shadow: 0 1px 1px #303841;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
+
+.intro-button:hover {
+    background-color: #00ADB5;
+}
