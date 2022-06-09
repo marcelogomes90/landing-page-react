@@ -8,7 +8,7 @@ function Features() {
     
     return(
         <div className='container-features'>
-            <h1 className='features-titulo'>FEATURES</h1>
+            <h1 className='features-titulo'>RECURSOS</h1>
             <h1 className='line'></h1>
             <div className='features-box'>
                 <div className='box'>
