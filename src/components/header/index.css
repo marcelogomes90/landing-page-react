@@ -27,7 +27,7 @@ header {
 }
 
 .contato:hover {
-    text-decoration: underline 2px #00ADB5;
+    text-decoration: underline 2px #FF5722;
     text-underline-position: under;
     opacity: 1;
     transition: opacity 300ms, transform 300ms;
