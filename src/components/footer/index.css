@@ -1,0 +1,12 @@
+.container-footer {
+    background-color: #d8d8d8;
+    height: 100px;
+}
+
+.footer-texto {
+    line-height: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #303841;
+}

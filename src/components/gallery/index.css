@@ -47,6 +47,10 @@
     transition: all 1s;
 }
 
+.link {
+    text-decoration: none;
+}
+
 #gal1 {
     background-image: url('../../assets/GAL1.jpg');    
 }
