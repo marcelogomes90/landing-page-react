@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #EEEEEE;
 }
 
 .contato-titulo {
@@ -11,7 +10,7 @@
     margin: 100px 10% 0 10%;
     font-size: 35px;
     font-weight: bold;
-    color: #303841;
+    color: #EEEEEE;
 }
 
 .line {
@@ -26,16 +25,15 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px 80px;
+    gap: 20px 100px;
     width: 90%;
     margin: 10px 5% 100px 5%;
 }
 
 .box-form {
-    width: 400px;
-    height: 500px;
-    background-color: #303841;
-    border-radius: 5px;
+    width: 500px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.342);
 }
 
 form {
@@ -47,26 +45,93 @@ form {
 .form-titulo {
     color: #EEEEEE;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    text-transform: uppercase;
 }
 
-input {
+#nome, #email, #telefone, #dtnasc {
     margin: 12px 30px;
-    width: 260px;
-    height: 26px;
+    width: 300px;
+    height: 30px;
     border: none;
     outline: none;
     border-radius: 2px;
+    font-family: 'Rubik', sans-serif;
 }
 
-input:focus {
+#nome:focus, #email:focus, #telefone:focus, #dtnasc:focus{
     border: solid 1px #FF5722;
+}
+
+#submit {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    color: #EEEEEE;
+    background-color: #d44b21;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#submit:hover {
+    background-color: #FF5722;
+    transition: all 0.3s;
+}
+
+#submit:active {
+    width: 198px;
+    height: 38px;
+}
+
+input::placeholder {
+    font-size: 14px;
 }
 
 textarea {
     margin: 12px 30px;
-    width: 260px;
+    width: 296px;
     height: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    resize: none;
+    padding: 10px 2px;
 }
 
+textarea:focus {
+    border: solid 1px #FF5722;
+}
 
+.infos-titulo {
+    margin-top: 40px;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    color: #eeeeee;
+    width: 250px;
+    height: 550px;
+}
+
+.phone, .location, .mail, .fire {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 10px;
+    margin: 15px 0 0 0;
+}
+
+.contato-info p {
+    margin: 5px 0;
+}
+
+.icons {
+    width: 24px;
+    margin-right: 15px;
+}

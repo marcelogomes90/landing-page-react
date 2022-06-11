@@ -24,6 +24,7 @@ header {
     text-decoration: none;
     font-size: 16px;
     color: #303841;
+    cursor: pointer;
 }
 
 .contato:hover {

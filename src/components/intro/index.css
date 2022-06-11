@@ -33,11 +33,16 @@
     background-color: #01767c;
     color: #EEEEEE;
     font-size: 14px;
-    text-shadow: 0 1px 1px #303841;
     cursor: pointer;
     font-family: 'Rubik', sans-serif;
 }
 
 .intro-button:hover {
     background-color: #00ADB5;
+    transition: all 0.3s;
+}
+
+.intro-button:active {
+    width: 158px;
+    height: 38px;
 }
