@@ -27,7 +27,7 @@
     flex-wrap: wrap;
     gap: 20px 100px;
     width: 90%;
-    margin: 10px 5% 100px 5%;
+    margin: 10px 5% 60px 5%;
 }
 
 .box-form {
@@ -108,7 +108,7 @@ textarea:focus {
 }
 
 .infos-titulo {
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 .contato-info {
