@@ -1,5 +1,4 @@
 .container-about {
-    height: 100%;
     background-color: #EEEEEE;
     display: flex;
     flex-direction: column;
@@ -46,6 +45,8 @@
 .about-texto {
     align-items: center;
     width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .about-list {

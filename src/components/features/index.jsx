@@ -7,7 +7,7 @@ import icon4 from '../../assets/settings.png'
 function Features() {
     
     return(
-        <div className='container-features'>
+        <div href='#' id='feature' className='container-features'>
             <h1 className='features-titulo'>RECURSOS</h1>
             <h1 className='line'></h1>
             <div className='features-box'>

@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/about'
+import Contato from './components/contato'
 import Features from './components/features'
 import Galeria from './components/gallery'
 import Header from './components/header'
@@ -15,6 +16,7 @@ function App() {
         <Features />
         <About />
         <Galeria />
+        <Contato />
       </div>
     </div>
   )
